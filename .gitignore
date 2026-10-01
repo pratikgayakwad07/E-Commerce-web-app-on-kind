@@ -75,3 +75,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ── GitHub Actions self-hosted runner ────────────────────────────────────────
+# Never commit the runner binaries, credentials, or work directory to git
+actions-runner/
